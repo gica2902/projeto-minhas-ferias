@@ -1,270 +1,89 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css">
-    <link rel="stylesheet"  type="text/css" href="css/style.css">
-    
-    <title>Crepúsculo</title>
-</head>
+    <title>Crepúsculo Plus</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@800&display=swap" rel="stylesheet">
+    </head>
 <body>
-    <!-- INICIO menu -->
-    <header id="header">
-    <a id="logo" href="index.html"><img src="img/cantinho-cullen.png" alt="logo empressa modelo"></a>
-    <nav id="nav">
-        <button aria-label="Abrir menu" id="btn-mobile" aria-haspopup="true"aria-controls= "menu"aria-expanded="false">
-         <span id="hamburger"></span>
-        </button>
-        <ul id="menu" role="menu" >
-        <li><a class="linkMenu" href="index.html">Home</a></li>
-        <li><a class="linkMenu" href="">Crepúsculo</a></li>
-        <li><a class="linkMenu" href= "#">Livros</a></li>
-        <li><a class="linkMenu" href= "contato.html">Contatos</a></li>
-        <li><a class="linkMenu" href= "./videos.html">Vídeos</a></li>
-        <li><a class="linkMenu" href= "./produtos.html">Produtos</a></li>
-      </ul>
-    </nav>
-  </header>
-    <!-- FIM menu -->
-    <!-- Início carousel página principal -->
-    <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel"data-bs-pause="none">
-      <div class="carousel-inner">
-        <div class="carousel-item active" data-bs-ride="700">
-          <img 
-            src="./img/bellseedward_carousel_9_.webp"
-            class="d-block w-100"
-            alt="banner 1"
-          >
+    
+    <section class="principal container">
+        <div> 
+        <h1 class="container__titulo">Com o Crepúsculo, você pode aproveitar a melhor história de romance por um preço único.</h1>
+        <img src="img/Combo.png" alt="O crepúsculo é a junção das melhores coisas">
+        <a href="www.alura.com.br" class="container__botao">Venha acompanhar a melhor saga*</a>
+        <a href="www.alura.com.br" class="container__botao botao_secundario">So no crepúsculo Plus</a> 
+        <p class="container__aviso">*Haverá preço pode caso a assinatura seja feita para qualidade 4K.</p> 
         </div>
-        <div class="carousel-item" data-bs-ride="1700">
-          <img 
-            src="./img/carousel_1_a fome do edward.jpg"
-            class="d-block w-100"
-            alt="banner 1"
-          >
+        </section>
+
+     <section class="container secundario">
+        <div class="container__descricao">
+            <p class="descricao__texto">
+                Só o Crepúsculo Plus oferece os melhores filmes da melhor saga ja feita!
+            </p>
+            <a href="www.alura.com.br" class="container__botao secundario__botao" container>Assine o Crepúsculo Plus</a>
         </div>
-        <div class="carousel-item" data-bs-ride="1700">
-          <img 
-          src="./img/carousel_88_voltures.jpg_large"
-          class="d-block w-100"
-          alt="banner 1"
-          >
+        <img src="img/Telas.png" alt="Tela do alura+ e alura língua" class="secundario__imagem">
+    </section>
+
+    <section class="container secundario">
+        <img src="img/Notebook.png" alt="Notebook" class="secundario__imagem">
+        <div class="container__descricao">
+            <h2 class="descricao__titulo">Baixe os filmes</h2>
+            <p class="descricao__texto">Baixe e assista quando e onde quiser. 
+            Assim, seus favoritos estão sempre com você, até mesmo sem internet.</p>
         </div>
-        <div class="carousel-item" data-bs-ride="1700">
-          <img 
-          src="./img/deitados na grama carousel_18.jpg"
-          class="d-block w-100"
-          alt="banner 1"
-          >
-        </div>
-      </div>
-      <button
-          class="carousel-control-prev"
-          data-bs-target="#carouselExampleInterval"
-          type="button"
-          data-bs-slide="prev"
-        >
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">previous</span>
-      </button>
-      <button
-          class="carousel-control-next"
-          data-bs-target="#carouselExampleInterval"
-          type="button"
-          data-bs-slide="next"
-        >
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">previous</span>
-      </button>
+    </section>
 
-    </div>
-
-   
-    <!-- Fim carousel página principal -->
-    <!-- Início Banner -->
-    <div class="section-banner-home">
-      <div class="container-fluid"> 
-        <div class="row m-0">
-          <div class="col-12 col-md-6">
-            <figure>
-              <img src="./img/coisa linda carousel_17_.png" alt="Banner home">
-            </figure>
-          </div>
-          <div class="col-12 col-md-6">
-            <section class="texto-banner d-none d-md-block">
-              <h1> Venha Conhecer os livro  da saga de crepúsculo</h1>
-              <p class="d-none d-md-block"> "e então o leão se apaixonou pelo o cordeiro" .</p>
-              <a href="#">Saiba Mais</a> 
-            </section>          
-          </div>
-        </div>        
-      </div>
-    </div>
-    <!-- Fim Banner -->
-    <!-- Início Destaque -->
-    <div class="destaque">
-      <div class="container">
-        <div class="row d-flex justify-content-center">
-          <!-- Inicio da tag section do texto destaque -->
-          <section clase="col-12" >
-            <h2>Que tal conhecer os livros da saga de crepúsculo!</h2>
-            <p>.</p>
-          </section>
-            <!-- Fim da tag section do texto destaque -->
-            <!-- Início imagem 1 -->
-            <div class=" col-6 col-md-2 pr-0">
-              <figure>
-                <a href="./produto.html"><img src="./img/crepusculo livro 1.jpg"alt=" nossa querida saga de crepúsculo"
-                  width="100%"></a>
-              <figcaption> Crepúsculo <br>Por apenas 55 </figcaption>
-              <!-- Função <br> desloca o texto seguinta para a linha posterior -->              
-           </figure>
-
-            </div>
-            <!-- Fim imagem 1 -->
-            <!-- Início imagem 2 -->
-            <div class=" col-6 col-md-2 pr-0">
-              <figure>
-                <a href="./produto.html"><img src="./img/lua nova livro 2.webp"alt=" nossa querida saga de crepúsculo"
-                  width="100%"></a>
-              <figcaption> Lua Nova <br>Por apenas 40 </figcaption>
-              <!-- Função <br> desloca o texto seguinta para a linha posterior -->              
-           </figure>
-
-            </div>
-            <!-- Fim imagem 2 -->
-            <!-- Início imagem 3 -->
-            <div class=" col-6 col-md-2 pr-0">
-              <figure>
-                <a href="./produto.html"><img src="./img/livro de eclipse 4.jpg"alt=" nossa querida saga de crepúsculo"
-                  width="100%"></a>
-              <figcaption> Eclípse <br> Por apenas 58</figcaption>
-              <!-- Função <br> desloca o texto seguinta para a linha posterior -->              
-           </figure>
-
-            </div>
-            <!-- Fim imagem 3 -->
-            <!-- Início imagem 4 -->
-            <div class=" col-6 col-md-2 pr-0">
-              <figure>
-                <a href="./produto.html"><img src="./img/Amanhecer_livro 5.jpg"alt=" nossa querida saga de crepúsculo"
-                  width="100%"></a>
-              <figcaption> amanhecer <br>Por apenas 60 </figcaption>
-              <!-- Função <br> desloca o texto seguinta para a linha posterior -->              
-           </figure>
-
-            </div>
-            <!-- Fim imagem 4 -->
-            <!-- Início imagem 5 -->
-            <div class=" col-6 col-md-2 pr-0">
-              <figure>
-                <a href="./produto.html"><img src="./img/livro sol da meia noite 6.jpg"alt=" nossa querida saga de crepúsculo"
-                  width="100%"></a>
-              <figcaption> Sol da meia noite o ponto de vista do Edward <br>Por apenas 80 </figcaption>
-              <!-- Função <br> desloca o texto seguinta para a linha posterior -->              
-           </figure>
-
-            </div>
-            <!-- Fim imagem 5 -->
-            <!-- Início Saiba Mais -->
-            <div class="col-12 d-flex justify-content-center">
-              <a id="saiba-mais" href="./produtos.html">Saiba mais</a>
-
-            </div>
-            <!-- Fim Saiba mais -->
-        </div>
-      </div>
-    </div>
-
-    <!-- Fim Destaque -->
-    <!-- Início Novidades -->
-    <div class=" novidades" id="novidades-mobile">
-      <div class="container-fluid">
-        <div class="row">
-          <div class="col-md-6">
-                <!-- Início texto novidades -->
-            <section class=" text-body">
-              <h2>Conheça nossas novidades</h2>
-              <p>Estamos com a nossa querida coleção de livros da saga de Crepúsculo junto com o livro do Edward " Não rezei para o meu Deus. Eu sempre soube que não havia uma divindade para minha espécie. Nãp havia um deus que eu seguisse. Então rezei para o Deus de Bella, com toda agonia da minha alma perdida e condenada, para que ele ou ela, me ajudasse a protegê-la de mim.".</p>
-              <a class="btn-banner"href="#" target="_blank">Saiba Mais</a>
-              <!--  target="_blank" > irá abrir o link de destino em uma nova aba do navegador -->
-            </section>
-          </div>
-          <!-- Fim texto novidades -->
-
-          <!-- Início imagem novidades -->
-          <div class="col-md-6">
-            <figure>
-              <img class="img-fluid" src="./img/meme crepusculo.png" alt="Banner Home">
-            </figure>
-          </div>
-           <!-- Fim imagens Novidade -->
-          </div>
-
-        </div>
-  
-      </div>
-      <!-- Fim Novidades -->
-
-        
-               
-             <footer class="rodape">
-              <div class="container">
-                <div class="row m-0" >
-                  <!-- Início Logo -->
-                  <div id="logo-rodape" class="col-md-4">
-                    <figure>
-                      <img src="img/cantinho-cullen.png"" alt="Logo rodape">
-                    </figure>
-                  </div>
-                  <!-- Fim Logo -->
-                  <!-- Início Texto -->
-                  <div class="col-md-4">
-                    <div class="info-contato">
-                      <p><strong>Email:</strong></p>
-        
-                    </div>
-                  </div>
-                  <
-                  <div class="col-md-4" >
-                    <figure class="redes-sociais">
-                      <a  href="https://www.facebook.com"><img src="img/rede_social/face.png" alt="Fecebook"></a>
-                      <a href="https://www.linkedin.com"><img src="img/rede_social/linkedin.png" alt="linkedin" ></a>
-                      <a href="https://www.youtube.com"><img src="img/rede_social/youtube.png" alt="YouTube" ></a>
-                      <a href="https://www.Instagram.com"><img src="img/rede_social/insta.png" alt="Instagram" ></a>
-                    </figure>
-                    <br>
-                    <a class="linkFooter" href="./index.html">home</a>
-                    <a class="linkFooter" href="./crepúsculo.html">crepúsculo</a>
-                    <a class="linkFooter" href="./lua nova.html">lua nova</a>
-                    <a class="linkFooter" href="./eclípse.html">eclípse</a>
-                    <a class="linkFooter" href="./amanhacer.html">amanhacer</a>
-                    <a class="linkFooter" href="./livro.html">livros</a>
-                  </div>
-               
-                  <div class="col-12">
-                    <p class="direitos">Todos os Direitos Reservados &copy; Crepúsculo Develeper</p>
-                  </div>
-                
-                </div>
-
-              </div>
-
-
-             </footer>
-
-
-            
-
-          
-
-
-
+    <section class="dispositivos">
+        <h2 class="dispositivos__titulo">Disponível nos seus dispositivos favoritos</h2>
+        <ul class="dispositivos__lista">
+            <li>
+                <img src="img/tv.png" alt="Ícone de televisão">
+                <h3 class="lista__item">TV</h3>
+            </li>
+            <li>
+                <img src="img/computador.png" alt="Ícone de computador">
+                <h3 class="lista__item">Computador</h3>
+            </li>
+            <li>
+                <img src="img/celular.png" alt="Ícone de celular">
+                <h3 class="lista__item">Celular</h3>
+            </li>
+        </ul>
+    </section>
+    
+   <footer class="rodape">
+        <img src="img/Logo.png" alt="Alura+" class="rodape__logo">
+        <ul class="rodape__lista">
+            <li class="lista__link">
+                <a href="#">Idioma</a>
+            </li>
+            <li class="lista__link">
+                <a href="#">Dispositivos compatíveis</a>
+            </li>
+            <li class="lista__link">
+                <a href="#">Contrato de assinatura</a>
+            </li>
+            <li class="lista__link">
+                <a href="#">Politica de privacidade</a>
+            </li>
+            <li class="lista__link">
+                <a href="#">Proteção de dados no Brasil</a>
+            </li>
+            <li class="lista__link">
+                <a href="#">Anuncios personalizados</a>
+            </li>
+            <li class="lista__link">
+                <a href="#">Ajuda</a>
+            </li>
+        </ul>
+        <p class="rodape__texto">&copy; Criado por Giovanna Marques 2ºB </p>
+    </footer>
 </body>
-
-  <script type="text/javascript" src="./bootstrap/js/bootstrap.min.js" alt="contato whatsapp" ></script>
-
-  <script type="text/javascript" src="./js/script_menu.js"></script>
-
 </html>
